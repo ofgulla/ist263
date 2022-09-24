@@ -19,20 +19,27 @@
     
 
 <form action="https://formspree.io/f/mjvzwrvp" method="POST">
-    <label for="fname">First Name:</label><br>
-<input type="text" id="fname"> name="fname"<br>
-<label for="lname">Last name:</label><br>
-<input type="text" id="lname" name="lname">
-<input type="text" id="lname:" name="lname">
-<p>What is your favorite holiday></p>
-<label for="holiday">Choose a holiday:</label>
-    <select id="holiday" name="holiday">
-        <option value="Fourth of July"></option>
-        <option value="New Years"></option>
-        <option value="Christmas"></option>
-    </select>
-    <textarea rows="5" cols="40" name="Why did you pick this holiday?" spellcheck="false"></textarea>
-</form>
+    <form method="post" action="">
+        <label for="full name">Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        <label for="specialinstructions">Special Instructions:</label>
+        <textarea id="specialinstructions" name="specialinstructions"></textarea><br>
+        <label for="delivery">Delivery</label>
+        <input type="radio" id="delivery" name="deliverypickup" value="delivery">
+        <label for="pickup">Pickup</label>
+        <input type="radio" id="pickup" name="deliverypickup" value="pickup" checked><br>
+        <label for="plastic"> Do you need plastic utensils?</label>
+        <input type="checkbox" id="plastic" name="plastic" value="yes">
+        <label>What region?</label>
+        <select id="region" name="region">
+            <option value="Syracuse">Syracuse</option>
+            <option value="Rochester">Rochester</option>
+            <option value="Albany">Albany</option>
+            <option value="NYC">NYC</option>
+            </select><br>
+        <input type="sumbit" value="send my form">
+    </form>
+
 
     </body>
     </html>

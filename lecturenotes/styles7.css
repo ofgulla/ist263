@@ -1,0 +1,7 @@
+p {
+    color:#ffae00;
+}
+/* changes color of visited link */
+a:visited {
+    color:#00ff00;
+}

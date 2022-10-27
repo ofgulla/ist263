@@ -1,0 +1,21 @@
+body {background-color:#FF73B3;}
+h1 {color:#F6F190;}
+h2 {color:#F9B53C;}
+a {color:#300004;}
+body {color:#F6F190;}
+nav {background-color:#300004;}
+nav a {color:#F9B53C;}
+nav a:hover {background-color:#000164;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+.img {float: left; margin-right: 10px}
+.clear {clear: both;}
+.part2 {display: flex;}
+table,th,td {border:1px solid black;}
+.header {
+    text-align: center;
+}
+.parent {display: flex; justify-content: space-around;}
+.sidebar {background-color:#300004; border-radius: 25px;}
+.flexbox2 {display:flex; flex-basis:70%; justify-content: space-between;  margin:10px; padding: 10px;}
+.flexbox1 {flex-basis: 30%; margin:10px; padding: 10px;}

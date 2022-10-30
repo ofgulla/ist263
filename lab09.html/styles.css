@@ -17,3 +17,4 @@ table,th,td {border: 1px solid black;}
 .sidebar {background-color: #300004; border-radius: 25px; position: absolute; right: 0%}
 .flexbox2 {display:flex; flex-basis: 75%; justify-content: space-between;  margin: 10px; padding: 10px;}
 .flexbox1 {flex-basis: 25%; margin: 10px; padding: 10px;}
+.box {position: left}

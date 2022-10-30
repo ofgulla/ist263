@@ -13,7 +13,7 @@ nav {margin-bottom: 30px;}
 .part2 {display: flex;}
 table,th,td {border: 1px solid black;}
 .header {text-align: center;}
-.parent {display: flex; flex-direction: row; justify-content: space-around;}
+.parent {display: flex; flex-direction: wrap; justify-content: space-around;}
 .sidebar {display: flex; background-color: #300004; border-radius: 25px;}
-.flexbox2 {flex-direction: row; flex-basis: 75%; justify-content: space-between;  margin: 10px; padding: 10px;}
+.flexbox2 {flex-basis: 75%; justify-content: space-between;  margin: 10px; padding: 10px;}
 .flexbox1 {flex-basis: 25%; margin: 10px; padding: 10px;}

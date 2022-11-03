@@ -19,7 +19,9 @@ table,th,td {border: 1px solid black;}
 .flexbox1 {flex-basis: 25%; margin: 10px; padding: 10px;}
 .otto {max-width: 100%;}
 .row2 {flex-wrap: wrap;}
-@media only screen and (max-width: 1px)
-{ nav a {display:block;} }
-@media only screen and (min-width: 1px)
-{ nav a {display:inline;} }
+@media only screen and (max-width: 600px)
+{ nav a {display:block;} 
+span {display:none;}}
+@media only screen and (min-width: 600px)
+{ nav a {display:inline;}
+span {display:inline;} }

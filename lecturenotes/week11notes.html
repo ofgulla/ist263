@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> <!-- meta is a void tag -->
+        <title>Week 11 Notes</title>
+        <style>
+            .welcome {
+                display: flex; 
+                justify-content: center;
+            }
+            .skip {
+                background-color: #ffa500;
+                padding: 5px;
+                border: 1px solid #000000;
+                position: absolute;
+                top: 30px;
+                left: -999px;
+            }
+            /*focus is a pseudo class that means the element has been tabbed to*/
+            .skip.focus {
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="content" class="skip" tabindex="1">Skip to Content</a><br>
+        <a href="http://www.syr.edu" tabindex="2">Syracuse U.</a><br>
+        <a href="http://www.google.com" tabindex="3">Google</a><br>
+        <a href="http://www.amazon.com" tabindex="4">Amazon</a>
+        <div class="welcome">Hello World</div>
+        <p id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni cum harum minus, veniam odit unde, blanditiis magnam facere fugit nobis illo labore mollitia! Alias unde voluptate optio est, ratione adipisci?</p>
+</body>
+</html>

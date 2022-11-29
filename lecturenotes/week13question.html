@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>Question</title>
+    <style>
+        .red {color: red;}
+        .green {color:green;}
+    </style>
+    <script>
+        function wronganswer () {
+            document.getElementById("wrong").innerHTML = "<span class='red'>True is Incorrect.</span>"
+        }
+        function rightanswer () {
+            document.getElementById("right").innerHTML = "<span class='green'>False is Correct.</span>"
+        }
+    </script>
+    </head>
+    <body>
+        <p>Java and JavaScript are the same thing.</p>
+        <p id="wrong" onclick="wronganswer();">True</p>
+        <p id="right" onclick="rightanswer();">False</p>
+    </body>
+</html>

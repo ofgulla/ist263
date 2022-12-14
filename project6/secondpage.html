@@ -7,24 +7,26 @@
     <style>
    @media only screen and (max-width: 600px)
         {
-            .grid-container {padding: 10px;}
+            .grid-container, body {padding: 10px;}
         } 
-                body {background-color: #375371;}
+            body {background-color: #375371;}
             p { background-color:#c2e1f9; border: 2px; border-radius: 25px; margin: 10px; padding: 10px; }
             p, h1, h2, nav, nav a, ul {font-family: 'Montserrat', sans-serif;}
             h2 {background-color:#c2e1f9; color:#375371; border: 2px; padding: 10px;}
             h1 {color:#c2e1f9; text-shadow:#5d85af 1px 0 10px;}
             footer {color:#c2e1f9;}
+            .schedule {color:#c2e1f9;}
             ul {list-style-type: none; margin: 0; padding: 0; background-color:#c2e1f9; overflow:hidden;}
             li {float:left; border-right: 1px solid;}
             li a {display:block; text-align:center; padding:14px; text-decoration:none;}
             li a:hover {background-color:#5d85af;}
             footer {background-color:#c2e1f9; color: #375371; margin:auto; padding: 15px; text-align:center;}
             .grid-item {border: 1px solid #375371; padding: 15px; font-size: 15px; text-align: center; background-color:#c2e1f9;}
-             .grid-container {display: grid; grid-template-rows: 80px 80px 80px 80px 80px 80px 80px; grid-template-columns: auto auto auto auto auto auto auto; background-color:#c2e1f9; padding: 10px; align-content:center;}
+             .grid-container {display: grid; grid-template-columns: 80px 80px 80px 80px 80px 80px 80px; grid-template-columns: auto auto auto auto auto auto auto; background-color:#c2e1f9; padding: 10px; align-content:center;}
     </style>
 </head>
 <body>
+    <div class="header">
     <nav>
         <ul> 
             <li><a href="index.html"> Marathon </a></li>
@@ -32,6 +34,7 @@
             <li><a href="thirdpage.html"> Ways to Fuel </a></li>
         </ul>
     </nav>
+    </div>
 
     <h1>Training Plan</h1>
     

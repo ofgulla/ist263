@@ -23,9 +23,12 @@
             table {width: 75%; background-color:#c2e1f9; margin-left:auto; margin-right:auto;}
             th {height: 80px; color:#375371; font-weight:bold;}
             td {height: 50px; color:#375371;}
+            .skip {position:absolute;left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;}
+            .skip:focus {position:static; width:auto; height:auto;}
     </style>
 </head>
 <body>
+    <header><a class="skip" href="#main">Skip to content</a></header>
     <div class="header">
     <nav>
         <ul> 
@@ -93,7 +96,7 @@
     Two Rest Days<br>
     Increasing Mileage</p>
 </div>
-    <p>
+    <p><main id="main">
         Shown above, is a calendar of work outs for the twelve weeks. There are included rest days in this 
         layout, which means that you need to let your body recover and rest. On rest days, it is great to go 
         for a walk or do yoga, but nothing too straining or high intensity. As the marathon approaches, you
@@ -104,7 +107,7 @@
         down so that your body can rest and be ready for race day. This plan will help prepare you for the 
         marathon slowly but effectively. Feel free to cross train on the other days, just remember to save 
         your energy for the runs.
-    </p>
+    </main></p>
 <div class="footer"><p> &copy; Gulla 2022 </p></div>
 </body>
 </html>

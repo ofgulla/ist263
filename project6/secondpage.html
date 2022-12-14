@@ -21,8 +21,10 @@
             li a {display:block; text-align:center; padding:14px; text-decoration:none;}
             li a:hover {background-color:#5d85af;}
             footer {background-color:#c2e1f9; color: #375371; margin:auto; padding: 15px; text-align:center;}
-            .grid-item {border: 1px solid #375371; padding: 15px; font-size: 15px; text-align: center; background-color:#c2e1f9;}
-             .grid-container {display: grid; grid-template-columns: auto auto auto auto auto auto auto; grid-template-rows: auto auto auto auto; background-color:#c2e1f9; padding: 10px; align-content:center;}
+            table, th ,td {border: 1px solid;}
+            table {width: 100%;}
+            th {height: 80px;}
+            td {height: 50px;}
     </style>
 </head>
 <body>
@@ -37,45 +39,55 @@
     </div>
 
     <h1>Training Plan</h1>
+
+    <table>
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td>4 Miles</td>
+            <td>5 Miles</td>
+            <td>Rest Day</td>
+            <td>10 Miles</td>
+            <td>6 Miles</td>
+            <td>4 miles</td>
+            <td>Rest Day</td>
+        </tr>
+        <tr>
+            <td>5 Miles</td>
+            <td>4 Miles</td>
+            <td>Rest Day</td>
+            <td>13 Miles</td>
+            <td>6 Miles</td>
+            <td>4 miles</td>
+            <td>Rest Day</td>
+        </tr>
+        <tr>
+            <td>6 Miles</td>
+            <td>5 Miles</td>
+            <td>Rest Day</td>
+            <td>16 Miles</td>
+            <td>4 Miles</td>
+            <td>4 miles</td>
+            <td>Rest Day</td>
+        </tr>
+        <tr>
+            <td>5 Miles</td>
+            <td>7 Miles</td>
+            <td>Rest Day</td>
+            <td>20 Miles</td>
+            <td>3 Miles</td>
+            <td>3 miles</td>
+            <td>Rest Day</td>
+        </tr>
+    </table>
     
-<div class="grid-container">
-    <div class="grid-item">Monday</div>
-    <div class="grid-item">Tuesday</div>
-    <div class="grid-item">Wednesday</div>  
-    <div class="grid-item">Thursday</div>
-    <div class="grid-item">Friday</div>
-    <div class="grid-item">Saturday</div>  
-    <div class="grid-item">Sunday</div>
-    <div class="grid-item">Rest Day</div>
-    <div class="grid-item">4 Miles</div> 
-    <div class="grid-item">5 Miles</div> 
-    <div class="grid-item">Rest Day</div> 
-    <div class="grid-item">10 Miles</div> 
-    <div class="grid-item">6 Miles</div> 
-    <div class="grid-item">4 Miles</div> 
-    <div class="grid-item">Rest Day</div> 
-    <div class="grid-item">5 Miles</div> 
-    <div class="grid-item">6 Miles</div> 
-    <div class="grid-item">Rest Day</div> 
-    <div class="grid-item">13 Miles</div> 
-    <div class="grid-item">6 Miles</div> 
-    <div class="grid-item">4 Miles</div> 
-    <div class="grid-item">Rest Day</div>
-    <div class="grid-item">6 Miles</div>
-    <div class="grid-item">5 Miles</div>
-    <div class="grid-item">Rest Day</div>
-    <div class="grid-item">16 Miles<div>
-    <div class="grid-item">4 Miles</div>
-    <div class="grid-item">4 Miles</div>
-    <div class="grid-item">Rest Day</div>
-    <div class="grid-item">5 Miles</div>
-    <div class="grid-item">7 Miles</div>
-    <div class="grid-item">Rest Day</div>
-    <div class="grid-item">20 Miles</div>
-    <div class="grid-item">3 Miles</div>
-    <div class="grid-item">3 Miles</div>
-  </div>
-  
 
 <h2>Weekly Schedule</h2>
 <div class="schedule">

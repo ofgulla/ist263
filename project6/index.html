@@ -25,11 +25,14 @@
             li {float:left; border-right: 1px solid;}
             li a {display:block; text-align:center; padding:14px; text-decoration:none;}
             li a:hover {background-color:#5d85af;}
+            .skip {position:absolute;left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;}
+            .skip:focus {position:static; width:auto; height:auto;}
         </style>
     </head>
 <body>
-    <a class="skip-to-content-link" href="#main">Skip to content</a>
-    <div class="header">
+    <header><a class="skip" href="#main">Skip to content</a></header>
+    <main id="main"></main>
+    <div class="links">
     <nav>
         <ul> 
             <li><a href="index.html"> Marathon </a></li>
